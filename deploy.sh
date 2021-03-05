@@ -12,4 +12,4 @@ cp -r docs/.vuepress/dist/* ./.
 # 如果发布到 https://<USERNAME>.github.io
 git add -A
 git commit -m 'deploy'
-git push
+git push -f
